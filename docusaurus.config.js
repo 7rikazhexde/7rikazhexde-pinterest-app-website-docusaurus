@@ -40,7 +40,10 @@ const config = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         indexDocs: true,
-        //language: ["en","ja"],
+        hashed: true,
+        language: "ja",
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
       },
     ],
   ],
