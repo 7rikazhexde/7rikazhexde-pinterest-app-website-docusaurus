@@ -4,63 +4,63 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   //title: "7rikazhexde's Pinterest App Site",
   title: "7rikazhexde's Pinterest App Web Site",
   //tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: 'https://7rikazhexde.github.io',
+  url: "https://7rikazhexde.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/7rikazhexde-pinterest-app-website-docusaurus/',
+  baseUrl: "/7rikazhexde-pinterest-app-website-docusaurus/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: '7rikazhexde', // Usually your GitHub org/user name.
-  projectName: '7rikazhexde-pinterest-app-website-docusaurus', // Usually your repo name.
+  organizationName: "7rikazhexde", // Usually your GitHub org/user name.
+  projectName: "7rikazhexde-pinterest-app-website-docusaurus", // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'ja',
-    locales: ['ja'],
+    defaultLocale: "ja",
+    locales: ["ja"],
   },
 
-  plugins: [
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      {
-        indexDocs: true,
-        hashed: true,
-        language: "ja",
-        highlightSearchTermsOnTargetPage: true,
-        explicitSearchResultPath: true,
-      },
-    ],
-  ],
+  //plugins: [
+  //  [
+  //    require.resolve("@easyops-cn/docusaurus-search-local"),
+  //    {
+  //      indexDocs: true,
+  //      hashed: true,
+  //      language: "ja",
+  //      highlightSearchTermsOnTargetPage: true,
+  //      explicitSearchResultPath: true,
+  //    },
+  //  ],
+  //],
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: "./sidebars.js",
           // docs/index.mdをTopページにする場合にコメントアウトを外すこと。
-          routeBasePath: '/',
+          routeBasePath: "/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         //blog: {
         //  showReadingTime: true,
@@ -69,9 +69,9 @@ const config = {
         //  editUrl:
         //    'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         //},
-        blog : false,
+        blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
@@ -81,12 +81,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: 'Home',
+        title: "Home",
         logo: {
           alt: "7rikazhexde's Pinterest App Site Logo",
-          src: 'img/logo.svg',
+          src: "img/logo.svg",
         },
         items: [
           //{
@@ -97,11 +97,11 @@ const config = {
           //  label: 'Tutorial',
           //},
           {
-            to: '/app',
-            type: 'docSidebar',
-            sidebarId: 'appSidebar',
-            position: 'left',
-            label: 'App',
+            to: "/app",
+            type: "docSidebar",
+            sidebarId: "appSidebar",
+            position: "left",
+            label: "App",
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           //{
@@ -112,53 +112,53 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               //{
               //  label: 'Tutorial',
               //  to: '/docs/tutorial/hogehoge',
               //},
               {
-                label: 'App',
+                label: "App",
                 //src/pages/index.jsをtopページにする場合
                 //to: '/docs/app/',
                 //docs/index.mdをTopページにする場合
                 //src/pages/index.jsをsrc/pages/index.js0にすること。
-                to: '/app',
+                to: "/app",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'X(Twitter)',
-                href: 'https://twitter.com/tw_7rikazhexde',
+                label: "X(Twitter)",
+                href: "https://twitter.com/tw_7rikazhexde",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               //{
               //  label: 'Blog',
               //  to: '/blog',
               //},
               {
-                label: 'GitHub',
-                href: 'https://github.com/7rikazhexde/7rikazhexde-pinterest-app-website-docusaurus',
+                label: "GitHub",
+                href: "https://github.com/7rikazhexde/7rikazhexde-pinterest-app-website-docusaurus",
               },
               {
-                label: 'Privacy Policy',
+                label: "Privacy Policy",
                 // src/pages/index.jsをTopページにする場合
                 //to: '/docs/privacy_policy',
                 // docs/index.mdをTopページにする場合
                 // src/pages/index.jsをsrc/pages/index.js0にすること。
-                to: '/privacy_policy',
-              }
+                to: "/privacy_policy",
+              },
             ],
           },
         ],
@@ -169,6 +169,26 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // https://github.com/easyops-cn/docusaurus-search-local?tab=readme-ov-file#usage
+        // https://github.com/easyops-cn/docusaurus-search-local/issues/206
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        indexBlog: false,
+        docsRouteBasePath: "/",
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        language: ["ja"],
+        // ```
+      },
+    ],
+  ],
 };
 
 export default config;
