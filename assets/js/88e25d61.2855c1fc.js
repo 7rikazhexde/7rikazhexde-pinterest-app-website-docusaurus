@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_7rikazhexde_pinterest_app_website_docusaurus=self.webpackChunk_7rikazhexde_pinterest_app_website_docusaurus||[]).push([[2],{4061:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
