@@ -63,8 +63,8 @@ export default function Layout(props) {
           <a
             href={
               isNetlifyProduction
-                ? "https://7rikazhexde.github.io/7rikazhexde-pinterest-app-website-docusaurus/docs/privacy_policy"
-                : "https://7rikazhexde.github.io/7rikazhexde-pinterest-app-website-docusaurus/docs/privacy_policy"
+                ? "https://7rikazhexde.github.io/7rikazhexde-pinterest-app-website-docusaurus/privacy_policy"
+                : "https://7rikazhexde.github.io/7rikazhexde-pinterest-app-website-docusaurus/privacy_policy"
             }
             style={linkStyle}
           >
@@ -87,8 +87,8 @@ export default function Layout(props) {
           <a
             href={
               isNetlifyProduction
-                ? "https://7rikazhexde.github.io/7rikazhexde-pinterest-app-website-docusaurus/en/docs/privacy_policy"
-                : "https://7rikazhexde.github.io/7rikazhexde-pinterest-app-website-docusaurus/en/docs/privacy_policy"
+                ? "https://7rikazhexde.github.io/7rikazhexde-pinterest-app-website-docusaurus/en/privacy_policy"
+                : "https://7rikazhexde.github.io/7rikazhexde-pinterest-app-website-docusaurus/en/privacy_policy"
             }
             style={linkStyle}
           >
