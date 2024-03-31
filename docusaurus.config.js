@@ -148,6 +148,14 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/7rikazhexde/7rikazhexde-pinterest-app-website-docusaurus',
               },
+              {
+                label: 'Privacy Policy',
+                // src/pages/index.jsをTopページにする場合
+                //to: '/docs/privacy_policy',
+                // docs/index.mdをTopページにする場合
+                // src/pages/index.jsをsrc/pages/index.js0にすること。
+                to: '/privacy_policy',
+              }
             ],
           },
         ],
