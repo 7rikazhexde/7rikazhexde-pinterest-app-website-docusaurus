@@ -30,10 +30,10 @@ const config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
-  //i18n: {
-  //  defaultLocale: 'ja',
-  //  locales: ['ja'],
-  //},
+  i18n: {
+    defaultLocale: 'ja',
+    locales: ['ja'],
+  },
 
   plugins: [
     [
@@ -128,25 +128,15 @@ const config = {
               },
             ],
           },
-          /*
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'X(Twitter)',
+                href: 'https://twitter.com/tw_7rikazhexde',
               },
             ],
           },
-          */
           {
             title: 'More',
             items: [
@@ -154,10 +144,10 @@ const config = {
               //  label: 'Blog',
               //  to: '/blog',
               //},
-              //{
-              //  label: 'GitHub',
-              //  href: 'https://github.com/facebook/docusaurus',
-              //},
+              {
+                label: 'GitHub',
+                href: 'https://github.com/7rikazhexde/7rikazhexde-pinterest-app-website-docusaurus',
+              },
             ],
           },
         ],
