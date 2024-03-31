@@ -3,6 +3,6 @@ slug: /
 sidebar_position: 1
 ---
 
-# topページ
+# 7rikazhexde's Pinterest App Web Site
 
-topページです。
+Pinterest APIを使用したWebアプリの紹介ページです。
